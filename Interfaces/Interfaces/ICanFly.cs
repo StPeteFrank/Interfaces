@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interfaces
 {
-    public interface ICanFly
+    public interface ICanFly    //An interface is a contract of actions
     {
         int WingSpan { get; set; }
         int FlySpeed { get; set; }
