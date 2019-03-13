@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interfaces.Classes
 {
-    class Bird
+    public class Bird 
     {
         public string Color { get; set;  }
         public int WingSpan { get; set; }
