@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interfaces
 {
-    interface ICanFly
+    public interface ICanFly
     {
         int WingSpan { get; set; }
         int FlySpeed { get; set; }
